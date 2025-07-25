@@ -23,7 +23,7 @@ npm run dev
 Build for production:
 npm run build
 
-🌐 Deployment:
+Deployment:
 Find the deployed app here:
 
 https://aurora-x1-landing.vercel.app/
