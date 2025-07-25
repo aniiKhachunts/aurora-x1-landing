@@ -23,7 +23,8 @@ const reviews = [
 
 export default function Testimonials() {
     return (
-        <section id="testimonials" className="w-full py-32 bg-[#0D0D0D] flex flex-col items-center text-center px-6">
+        <section id="testimonials"
+                 className="w-full py-20 sm:py-32 bg-[#0D0D0D] flex flex-col items-center text-center px-4 sm:px-6">
             <h2 className="text-3xl md:text-5xl font-bold mb-12 bg-gradient-to-r from-[#FF00C8] via-[#7B00FF] to-[#00E5FF] text-transparent bg-clip-text">
                 What People Say
             </h2>

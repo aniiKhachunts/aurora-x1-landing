@@ -12,10 +12,10 @@ export default function CTA() {
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
             >
-                <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
+                <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-4 sm:mb-6">
                     Ready to Step Into the Future?
                 </h2>
-                <p className="text-gray-300 text-lg mb-10">
+                <p className="text-gray-300 text-base sm:text-lg mb-6 sm:mb-10">
                     Pre-order Aurora X1 now and be among the first to experience true holographic AR.
                 </p>
                 <motion.button

@@ -16,7 +16,7 @@ export default function ProductShowcase() {
         <section
             id="showcase"
             ref={ref}
-            className="relative w-full py-32 flex flex-col items-center justify-center text-center bg-[#0D0D0D] overflow-hidden"
+            className="relative w-full py-32 flex flex-col items-center justify-center text-center bg-[#0D0D0D] overflow-hidden px-4 sm:px-6 lg:px-8"
         >
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,0,200,0.1),_transparent_70%)] pointer-events-none" />
 
@@ -33,7 +33,7 @@ export default function ProductShowcase() {
 
             <motion.div
                 style={{ scale, opacity }}
-                className="relative z-10 max-w-4xl w-full"
+                className="relative z-10 w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8"
             >
                 <img
                     src="/assets/product-preview.png"

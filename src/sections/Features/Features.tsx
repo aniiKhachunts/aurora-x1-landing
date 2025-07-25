@@ -13,7 +13,7 @@ export default function Features() {
                 Why Aurora X1?
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 max-w-6xl w-full px-4 sm:px-0">
                 {features.map((feature, i) => (
                     <motion.div
                         key={feature.title}
